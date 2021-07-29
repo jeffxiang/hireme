@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import Webcam from "react-webcam";
 
 function App() {
   return (
@@ -87,6 +88,7 @@ export default function Album() {
               Make it short and sweet, but not too short so folks don&apos;t simply skip over it
               entirely.
             </Typography>
+            <Webcam />
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent="center">
                 <Grid item>
